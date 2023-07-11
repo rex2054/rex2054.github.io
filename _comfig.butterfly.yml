@@ -45,7 +45,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://s2.loli.net/2023/07/08/BCPnM1RYy8gHaOr.jpg
-  effect: false
+  effect: ture
 
 # Disable all banner image
 disable_top_img: false
@@ -105,7 +105,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: ture # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -126,7 +126,7 @@ index_post_content:
 # anchor
 anchor:
   button:
-    enable: false
+    enable: ture
     always_show: false
     icon: # the unicode value of Font Awesome icon, such as '\3423'
   auto_update: false # when you scroll in post, the URL will update according to header id.
@@ -703,11 +703,10 @@ click_heart:
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
-  enable: false
+  enable: ture
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    # - rex
+    # - 2054
   fontSize: 15px
   random: false
   mobile: false
@@ -745,7 +744,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: ture
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -757,7 +756,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: ture
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
